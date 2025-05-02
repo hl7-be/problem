@@ -1,6 +1,6 @@
-Logical: ProblemLogicalModel
+Logical: BeModelProblem
 Title: "Problem Logical Model"
-Description: "A logical model for clinical problems, inspired by FHIR R4."
+Description: "Logical model for Problem"
 
 * identifier 1..1 Identifier "Business Identifier" "Unique identifier of the problem"
 * recordedDate 1..1 dateTime "Recorded Date" "Date of last modification of the information by the recorder"
