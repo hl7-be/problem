@@ -1,11 +1,12 @@
 {
-    "name": "hl7.fhir.eu.template",
+    "name": "hl7.fhir.be.my.template",
     "version": "0.0.1",
     "type": "fhir.template",
     "license": "CC0-1.0",
-    "description": "HL7 Europe FHIR Template",
-    "base": "fhir.base.template",
+    "description": "Local template extension for FHIR IG",
+    "author": "http://hl7belgium.org",
+      "base":  "hl7.be.fhir.template",
     "dependencies": {
-      "fhir.base.template": "current"
+      "hl7.be.fhir.template": "current"
     }
-}
+  }

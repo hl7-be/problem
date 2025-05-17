@@ -7,16 +7,16 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: hl7.fhir.eu.empty-ig
-canonical: http://example.com/fhir/empty-ig
-url: http://example.com/fhir/example/ImplementationGuide/empty-ig
-name: ExampleIG
-title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
-description: Example IG exercises many of the fields in a SUSHI configuration.
+id: hl7.fhir.be.problem
+canonical: https://www.ehealth.fgov.be/standards/fhir/problem
+#url: https://www.ehealth.fgov.be/standards/fhir//ImplementationGuide/empty-ig
+name: Problem
+title: "BeProblem Implementation Guide"
+description: "Belgian CareSet - Problem: FHIR specifications"
 status: active
 license: CC0-1.0
 date: 2020-02-26
-version: 1.0.0
+version: 0.1.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here, but the current tooling 
@@ -236,7 +236,8 @@ menu:
 # values, the value in the YAML should be a sequence/array. For a
 # partial list of allowed parameters see:
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
-#parameters:
+parameters:
+  generate-uml: all
 #  excludettl: true
 #  validation: [allow-any-extensions, no-broken-links]
 
